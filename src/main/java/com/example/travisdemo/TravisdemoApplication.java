@@ -17,4 +17,11 @@ public class TravisdemoApplication {
 	public String sayHello() {
 		return "Hello World";
 	}
+	
+	@GetMapping("/hi")
+	public String sayHi() {
+		return "Hi World";
+	}
+	
+	
 }
